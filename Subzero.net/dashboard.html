@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUBZERO - Dashboard</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="icon" href="images/S_subzero_website.png">
+</head>
+<body class="lp-body">
+    <header class="lp-header">
+        <h1 class="lp-title">Welcome to SUBZERO</h1>
+        <p class="lp-text">This is your dashboard</p>
+        <div class="lp-buttonArea">
+            <button class="lp-signBtn" onclick="logout()">Log Out</button>
+        </div>
+    </header>
+
+    <script>
+        function logout(){
+            // simple client-side logout (later via server/session)
+            alert("You have been logged out.");
+            window.location.href = "signin.html";
+        }
+    </script>
+</body>
+</html>
